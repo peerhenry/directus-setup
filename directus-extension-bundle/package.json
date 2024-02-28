@@ -26,5 +26,8 @@
 	},
 	"devDependencies": {
 		"@directus/extensions-sdk": "10.3.4"
+	},
+	"dependencies": {
+		"sharp": "^0.33.2"
 	}
 }

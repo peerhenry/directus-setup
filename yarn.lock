@@ -4542,6 +4542,11 @@ detect-libc@^2.0.0, detect-libc@^2.0.2:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.0.2.tgz#8ccf2ba9315350e1241b88d0ac3b0e1fbd99605d"
   integrity sha512-UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw==
 
+directus-extension-models@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/directus-extension-models/-/directus-extension-models-2.5.2.tgz#7adac1aca574fac9f0a02fb896e4c269fcce2743"
+  integrity sha512-OC1ww5CLlQJuBUwtabLPzpnEkBB/VpbY3y9lNQxKMQhcZMdr4zpSo9RzS7B3DAl9ECprRhfjSjtUecXyV79FzA==
+
 directus@10.9.3, directus@^10.9.3:
   version "10.9.3"
   resolved "https://registry.yarnpkg.com/directus/-/directus-10.9.3.tgz#114225e9d6daece78dcbb1c8c8a461fb136009d7"

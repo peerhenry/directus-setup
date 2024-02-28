@@ -22,3 +22,21 @@ yarn dump
 ```
 
 It will be exported to `schema.yml`
+
+## Generating types
+
+To generate the types for the extension, run:
+
+```
+directus models snapshot ../directus-extension-example/src/models.d.ts
+```
+
+This should generate the file `directus-extension-example/src/models.d.ts`.
+
+### Automating type generation
+
+To make it part of the `dump` command, add this to the `scripts` section of `directus-app/package.json`:
+
+```
+"dump:models": "directus models snapshot ../directus-extension-example/src/models.d.ts"
+```
