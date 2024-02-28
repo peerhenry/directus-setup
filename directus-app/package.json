@@ -6,6 +6,7 @@
     "dev": "run-s dev:**",
     "dev:docker": "docker compose up -d",
     "dev:bootstrap": "directus bootstrap",
+    "dev:schema": "directus schema apply ./schema.yml",
     "dev:start": "directus start",
     "dump": "run-p dump:**",
     "dump:schema": "directus schema snapshot -y ./schema.yml"
