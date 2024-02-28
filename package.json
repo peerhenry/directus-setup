@@ -1,7 +1,8 @@
 {
   "private": true,
   "workspaces": [
-    "directus-app"
+    "directus-app",
+    "directus-extension-bundle"
   ],
   "scripts": {
     "dev": "wsrun -m dev",
