@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  database:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: directus
+      POSTGRES_PASSWORD: directus
+    ports:
+      - "5432:5432"
